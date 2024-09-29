@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "simon",
   "author": "Cristian",
-  "model": "./simon.tflite",
+  "model": "simon.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.6,
