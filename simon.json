@@ -1,12 +1,11 @@
 {
   "type": "micro",
   "wake_word": "simon",
-  "author": "Kevin Ahrendt",
-  "website": "https://www.kevinahrendt.com/",
+  "author": "Cristian",
   "model": "./simon.tflite",
   "version": 1,
   "micro": {
-    "probability_cutoff": 0.66,
+    "probability_cutoff": 0.6,
     "sliding_window_average_size": 10
   }
 }
