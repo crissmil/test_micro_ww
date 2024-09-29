@@ -1,15 +1,12 @@
 {
   "type": "micro",
   "wake_word": "simon",
-  "author": "Cristian",
-  "model": "simon.tflite",
-  "trained_languages": ["en"],
-  "version": 2,
+  "author": "Kevin Ahrendt",
+  "website": "https://www.kevinahrendt.com/",
+  "model": "./simon.tflite",
+  "version": 1,
   "micro": {
-    "probability_cutoff": 0.6,
-    "feature_step_size": 10,
-    "sliding_window_size": 5,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7.0"
+    "probability_cutoff": 0.66,
+    "sliding_window_average_size": 10
   }
 }
